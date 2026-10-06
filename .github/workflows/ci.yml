@@ -47,7 +47,7 @@ jobs:
           name: test-report-node${{ matrix.node }}
           path: reports/
           retention-days: 7
- 
+    throw new RangeError('percent 必須介於 0 到 100');
   build:
     needs: test
     runs-on: ubuntu-latest
